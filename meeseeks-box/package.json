@@ -2,7 +2,7 @@
   "name": "meeseeks-box",
   "version": "0.0.1",
   "description": "meeseeks-box CLI",
-  "private": true,
+  "private": false,
   "bin": {
     "meeseeks-box": "bin/meeseeks-box"
   },
@@ -23,7 +23,15 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "gluegun": "latest"
+    "aws-sdk": "^2.656.0",
+    "axios": "^0.19.2",
+    "gluegun": "latest",
+    "history": "^4.10.1",
+    "moment": "^2.24.0",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3",
+    "reduxsauce": "^1.1.2",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
